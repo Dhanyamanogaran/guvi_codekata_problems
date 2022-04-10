@@ -1,0 +1,8 @@
+#Q3.Write a program to find all of the roots of the quadratic.
+a,b,c= map(int,input().split())
+d= -b+((b**2)-(4*a*c))**0.5
+e= -b-((b**2)-(4*a*c))**0.5
+n=d/(2*a)
+m=e/(2*a)
+print("{:.2f}".format(n))
+print("{:.2f}".format(m))
