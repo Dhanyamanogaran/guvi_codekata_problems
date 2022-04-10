@@ -1,0 +1,14 @@
+#Q2. Print the even and odd integers of the integer in a separate line.
+
+n=input()
+evenbucket=[]
+oddbucket=[]
+for i in n:
+    if int(i)%2==0:
+       evenbucket.append(i)
+    else:
+        oddbucket.append(i)
+evenbucket.sort()
+oddbucket.sort()
+print(*evenbucket)
+print(*oddbucket)
