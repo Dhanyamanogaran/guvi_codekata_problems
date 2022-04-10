@@ -1,0 +1,6 @@
+#Q4.Print the sum of values from 1 to N.
+n=int(input ())
+sums=0
+for n in range (1,n+1,1):
+    sums=sums+n
+print (sums)
